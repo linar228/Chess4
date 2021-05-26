@@ -5,9 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfChess"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="1000" Width="1000">
     <Grid>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="100" />
             <ColumnDefinition Width="100" />
             <ColumnDefinition Width="100" />
             <ColumnDefinition Width="100" />
@@ -19,11 +25,61 @@
             <RowDefinition Height="100" />
             <RowDefinition Height="100" />
             <RowDefinition Height="100" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="100" />
         </Grid.RowDefinitions>
 
-        <Border Grid.Column="0" Grid.Row="0" Background="Black" />
-        <Border Grid.Column="2" Grid.Row="0" Background="Black" />
-        <Border Grid.Column="1" Grid.Row="1" Background="Black" />
-        <Border Grid.Column="3" Grid.Row="1" Background="Black" />
+        <Border Grid.Column="2" Grid.Row="1" Background="Black" />
+        <Border Grid.Column="8" Grid.Row="1" Background="Black" />
+        <Border Grid.Column="1" Grid.Row="2" Background="Black" />
+        <Border Grid.Column="4" Grid.Row="1" Background="Black" />
+        <Border Grid.Column="6" Grid.Row="1" Background="Black" />
+        <Border Grid.Column="3" Grid.Row="2" Background="Black" />
+        <Border Grid.Column="5" Grid.Row="2" Background="Black" />
+        <Border Grid.Column="7" Grid.Row="2" Background="Black" />
+        <Border Grid.Column="6" Grid.Row="3" Background="Black" />
+        <Border Grid.Column="2" Grid.Row="3" Background="Black" />
+        <Border Grid.Column="4" Grid.Row="3" Background="Black" />
+        <Border Grid.Column="8" Grid.Row="3" Background="Black" />
+        <Border Grid.Column="3" Grid.Row="4" Background="Black" />
+        <Border Grid.Column="5" Grid.Row="4" Background="Black" />
+        <Border Grid.Column="7" Grid.Row="4" Background="Black" />
+        <Border Grid.Column="1" Grid.Row="4" Background="Black" />
+        <Border Grid.Column="6" Grid.Row="5" Background="Black" />
+        <Border Grid.Column="2" Grid.Row="5" Background="Black" />
+        <Border Grid.Column="4" Grid.Row="5" Background="Black" />
+        <Border Grid.Column="8" Grid.Row="5" Background="Black" />
+        <Border Grid.Column="3" Grid.Row="6" Background="Black" />
+        <Border Grid.Column="5" Grid.Row="6" Background="Black" />
+        <Border Grid.Column="7" Grid.Row="6" Background="Black" />
+        <Border Grid.Column="1" Grid.Row="6" Background="Black" />
+        <Border Grid.Column="6" Grid.Row="7" Background="Black" />
+        <Border Grid.Column="2" Grid.Row="7" Background="Black" />
+        <Border Grid.Column="4" Grid.Row="7" Background="Black" />
+        <Border Grid.Column="8" Grid.Row="7" Background="Black" />
+        <Border Grid.Column="3" Grid.Row="8" Background="Black" />
+        <Border Grid.Column="5" Grid.Row="8" Background="Black" />
+        <Border Grid.Column="7" Grid.Row="8" Background="Black" />
+        <Border Grid.Column="1" Grid.Row="8" Background="Black" />
+        <Label x:Name="A" Content="A" Grid.Column="1" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Label x:Name="B" Content="B" Grid.Column="2" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Label x:Name="C" Content="C" Grid.Column="3" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Label x:Name="D" Content="D" Grid.Column="4" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Label x:Name="E" Content="E" Grid.Column="5" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Label x:Name="F" Content="F" Grid.Column="6" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Label x:Name="G" Content="G" Grid.Column="7" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Label x:Name="H" Content="H" Grid.Column="8" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Label x:Name="1" Content="1" Grid.Row="1" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Label x:Name="2" Content="2" Grid.Row="2" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Label x:Name="3" Content="3" Grid.Row="3" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Label x:Name="4" Content="4" Grid.Row="4" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Label x:Name="5" Content="5" Grid.Row="5" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Label x:Name="6" Content="6" Grid.Row="6" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Label x:Name="7" Content="7" Grid.Row="7" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Label x:Name="8" Content="8" Grid.Row="8" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" FontSize="48"/>
     </Grid>
 </Window>
