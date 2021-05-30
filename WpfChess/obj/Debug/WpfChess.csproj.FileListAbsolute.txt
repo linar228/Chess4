@@ -1,0 +1,15 @@
+C:\Users\Пользователь\Desktop\шахматы\My Chess\WpfChess\obj\Debug\WpfChess.csprojAssemblyReference.cache
+C:\Users\Пользователь\Desktop\шахматы\My Chess\WpfChess\obj\Debug\MainWindow.g.cs
+C:\Users\Пользователь\Desktop\шахматы\My Chess\WpfChess\obj\Debug\App.g.cs
+C:\Users\Пользователь\Desktop\шахматы\My Chess\WpfChess\obj\Debug\WpfChess_MarkupCompile.cache
+C:\Users\Пользователь\Desktop\шахматы\My Chess\WpfChess\obj\Debug\WpfChess_MarkupCompile.lref
+C:\Users\Пользователь\Desktop\шахматы\My Chess\WpfChess\bin\Debug\WpfChess.exe.config
+C:\Users\Пользователь\Desktop\шахматы\My Chess\WpfChess\bin\Debug\WpfChess.exe
+C:\Users\Пользователь\Desktop\шахматы\My Chess\WpfChess\bin\Debug\WpfChess.pdb
+C:\Users\Пользователь\Desktop\шахматы\My Chess\WpfChess\obj\Debug\MainWindow.baml
+C:\Users\Пользователь\Desktop\шахматы\My Chess\WpfChess\obj\Debug\WpfChess.g.resources
+C:\Users\Пользователь\Desktop\шахматы\My Chess\WpfChess\obj\Debug\WpfChess.Properties.Resources.resources
+C:\Users\Пользователь\Desktop\шахматы\My Chess\WpfChess\obj\Debug\WpfChess.csproj.GenerateResource.cache
+C:\Users\Пользователь\Desktop\шахматы\My Chess\WpfChess\obj\Debug\WpfChess.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Desktop\шахматы\My Chess\WpfChess\obj\Debug\WpfChess.exe
+C:\Users\Пользователь\Desktop\шахматы\My Chess\WpfChess\obj\Debug\WpfChess.pdb

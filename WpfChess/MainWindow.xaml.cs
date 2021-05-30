@@ -23,17 +23,42 @@ namespace WpfChess
         public MainWindow()
         {
             InitializeComponent();
+        }
 
-            chessBoard.Rows = 8;
-            chessBoard.Columns = 8;
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            (sender as Button).Content = fig.Text;
+            
+        }
 
-            for(int i = 0; i< 32; i++)
-            {
-                Rectangle r1 = new Rectangle();
-                r1.Fill = Brushes.Black;
-                chessBoard.Children.Add(r1);
-            }
+        private void Pawn_Click_1(object sender, RoutedEventArgs e)
+        {
+            fig.Text = (sender as Button).Content.ToString();
+        }
 
+        private void Knight__Click(object sender, RoutedEventArgs e)
+        {
+            fig.Text = (sender as Button).Content.ToString();
+        }
+
+        private void Bishop_Click(object sender, RoutedEventArgs e)
+        {
+            fig.Text = (sender as Button).Content.ToString();
+        }
+
+        private void Rook_Click(object sender, RoutedEventArgs e)
+        {
+            fig.Text = (sender as Button).Content.ToString();
+        }
+
+        private void Queen_Click(object sender, RoutedEventArgs e)
+        {
+            fig.Text = (sender as Button).Content.ToString();
+        }
+
+        private void King_Click(object sender, RoutedEventArgs e)
+        {
+            fig.Text = (sender as Button).Content.ToString();
         }
     }
 }
